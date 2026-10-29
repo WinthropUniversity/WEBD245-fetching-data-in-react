@@ -1,0 +1,100 @@
+/* Enough styling to make the three states easy to see on screen.
+   The lecture is about fetching, so there is nothing clever here. */
+
+:root {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 0 0 1.5rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+section > h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.note {
+  margin: 0 0 0.75rem;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+/* The card from slide 20 */
+.card {
+  background: #ffffff;
+  border: 1px solid #878d96;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  margin: 0 0 0.25rem;
+}
+
+.card p {
+  margin: 0.15rem 0;
+  color: #4b5563;
+}
+
+/* The loading state */
+[role="status"] {
+  color: #4b5563;
+}
+
+/* The error state */
+[role="alert"] {
+  color: #b91c1c;
+  background: #ffffff;
+  border-left: 4px solid #b91c1c;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0.6rem 0.9rem;
+}
+
+ul {
+  background: #ffffff;
+  border: 1px solid #878d96;
+  border-radius: 8px;
+  margin: 0;
+  padding: 0.75rem 1.25rem 0.75rem 2.25rem;
+}
+
+li {
+  margin: 0.2rem 0;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+select {
+  font: inherit;
+  padding: 0.35rem 0.5rem;
+  margin-bottom: 0.9rem;
+  border: 1px solid #6b7280;
+  border-radius: 6px;
+  background: #ffffff;
+}
